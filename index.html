@@ -1,58 +1,6 @@
-<form action="#" method="post" enctype="multipart/form-data">
-  <h2>Publier une annonce</h2>
-
-  <label>Titre de l’annonce :</label><br>
-  <input type="text" name="titre" required><br><br>
-
-  <label>Description :</label><br>
-  <textarea name="description" rows="5" required></textarea><br><br>
-
-  <label>Prix (FCFA) :</label><br>
-  <input type="number" name="prix" required><br><br>
-
-  <label>Pays :</label><br>
-  <select name="pays" required>
-    <option value="">-- Sélectionner un pays --</option>
-    <option value="Senegal">Sénégal</option>
-    <option value="Cameroun">Cameroun</option>
-    <option value="Côte d'Ivoire">Côte d'Ivoire</option>
-    <option value="Maroc">Maroc</option>
-    <option value="Algérie">Algérie</option>
-    <option value="Nigeria">Nigeria</option>
-    <option value="Comores">Comores</option>
-    <!-- Ajoute tous les pays que tu veux -->
-  </select><br><br>
-
-  <label>Ville :</label><br>
-  <input type="text" name="ville" required><br><br>
-
-  <label>Catégorie :</label><br>
-  <select name="categorie" required>
-    <option value="location-maison">Maison à louer</option>
-    <option value="location-appartement">Appartement à louer</option>
-    <option value="vente-maison">Maison à vendre</option>
-    <option value="vente-terrain">Terrain à vendre</option>
-  </select><br><br>
-
-  <label>Photos :</label><br>
-  <input type="file" name="photos" multiple accept="image/*"><br><br>
-
-  <label>Nom du contact :</label><br>
-  <input type="text" name="nom" required><br><br>
-
-  <label>Téléphone / WhatsApp :</label><br>
-  <input type="tel" name="telephone" required><br><br>
-
-  <label>Email :</label><br>
-  <input type="email" name="email"><br><br>
-
-  <label>Moyen de paiement :</label><br>
-  <select name="paiement" required>
-    <option value="mobilemoney">Mobile Money</option>
-    <option value="orangemoney">Orange Money</option>
-    <option value="carte">Carte bancaire</option>
-    <option value="paypal">PayPal</option>
-  </select><br><br>
-
-  <button type="submit">Publier mon annonce</button>
-</form>
+<nav style="background-color: #3498db; padding: 15px; text-align: center;">
+  <a href="#" style="color: white; margin: 0 15px; text-decoration: none;">Accueil</a>
+  <a href="#annonces" style="color: white; margin: 0 15px; text-decoration: none;">Annonces</a>
+  <a href="#publier" style="color: white; margin: 0 15px; text-decoration: none;">Publier une annonce</a>
+  <a href="#contact" style="color: white; margin: 0 15px; text-decoration: none;">Contact</a>
+</nav>

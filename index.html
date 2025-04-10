@@ -1,35 +1,16 @@
-<div id="publier">
-  <h2>Publier une annonce</h2>
-  <form action="https://formspree.io/f/yourFormID" method="POST">
-    <label>Nom complet :<br>
-      <input type="text" name="nom" required>
-    </label><br><br>
-
-    <label>Email :<br>
-      <input type="email" name="email" required>
-    </label><br><br>
-
-    <label>Pays / Ville :<br>
-      <input type="text" name="ville" required>
-    </label><br><br>
-
-    <label>Type de bien :<br>
-      <select name="type">
-        <option>Appartement</option>
-        <option>Studio</option>
-        <option>Maison</option>
-        <option>Terrain</option>
-      </select>
-    </label><br><br>
-
-    <label>Prix :<br>
-      <input type="text" name="prix" required>
-    </label><br><br>
-
-    <label>Description :<br>
-      <textarea name="description" rows="5" required></textarea>
-    </label><br><br>
-
-    <button type="submit">Envoyer l’annonce</button>
-  </form>
-</div>
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/moveywve"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
